@@ -5,56 +5,7 @@
 
 ---
 
-## 1. Professional Portfolio & Standing Out ("How to Look Unique?")
-
-In senior and lead-level interviews, candidates are evaluated not just on tool syntax, but on **strategic business understanding**, **architecture design**, and **leadership**.
-
-```
-                           [ How to Look Unique? ]
-                                      |
-                                [ Portfolio ]
-                                      |
-                     +----------------+----------------+
-                     |                                 |
-                [ Freshers ]                    [ Experienced ]
-                     |                                 |
-                     +----------------+----------------+
-                                      |
-                               1. Resume (Impact & metrics-driven)
-                               2. LinkedIn Profile (Thought leadership & networking)
-                               3. Naukri.com / Job Portals (Optimized keywords)
-                               4. GitHub.com (Production-grade IaC & CI/CD modules)
-                               5. Personal Website / Technical Blog
-```
-
-### Essential Portfolio Assets
-* **Resume:** Emphasize business impact, ROI, scale (e.g., *"Migrated 100+ enterprise workloads with zero downtime and reduced cloud spend by 28%"*).
-* **LinkedIn Profile:** Active presence, technical posts, architecture diagrams, and recommendations.
-* **GitHub Repository:** Reusable Terraform modules, DevSecOps pipeline templates, and documented reference architectures.
-* **Personal Technical Blog / Website:** Real-world case studies, architectural decision records (ADRs), and post-mortems.
-
----
-
-## 2. IT Career Tracks & Roles Matrix
-
-```
-+------------+       +---------------+       +---------+       +----------------------+       +----------------+
-|   Sales    | ----> |   Pre-Sales   | ----> |   TAM   | ----> | Enterprise Architect | ----> | Technical Lead |
-| Commercial |       | Techno-       |       | Tech    |       | Infra + Application  |       | Infra / App    |
-| Focus      |       | Functional    |       | Account |       | Strategy & Design    |       | Execution      |
-|            |       | Proposals     |       | Manager |       |                      |       |                |
-+------------+       +---------------+       +---------+       +----------------------+       +----------------+
-```
-
-* **Sales:** Business development, lead generation, client relationships.
-* **Pre-Sales (Techno-Functional):** RFPs/RFIs, technical demonstrations, solution estimations, commercial proposals.
-* **TAM (Technical Account Manager):** Trusted technical advisor, governance, operational escalations, account health.
-* **Enterprise Architect:** Holistic technology blueprint spanning infrastructure, security, data, and application ecosystems.
-* **Technical Lead:** Hands-on leadership, sprint execution, code/IaC reviews, architecture enforcement.
-
----
-
-## 3. The Senior Mindset: Business & Architecture Alignment
+## 1. The Senior Mindset: Business & Architecture Alignment
 
 A senior candidate must answer: **"What is the business? What is the functional domain?"**
 
@@ -80,7 +31,7 @@ A senior candidate must answer: **"What is the business? What is the functional 
 
 ---
 
-## 4. Real-World Architecture Scenario: 100+ Application Migration
+## 2. Real-World Architecture Scenario: 100+ Application Migration
 
 > **Problem Statement:** Migrating 100+ enterprise workloads across Dev, UAT, and Production from an On-Premises Datacenter to Microsoft Azure.
 
@@ -95,7 +46,7 @@ A senior candidate must answer: **"What is the business? What is the functional 
 
 ---
 
-## 5. Enterprise Governance, Identity & Management Hierarchy
+## 3. Enterprise Governance, Identity & Management Hierarchy
 
 ### Cloud Adoption Framework (CAF) Methodology
 Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
@@ -130,7 +81,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 6. Enterprise Hub-and-Spoke Networking Architecture
+## 4. Enterprise Hub-and-Spoke Networking Architecture
 
 ```
                        [ On-Premises Datacenter ]
@@ -164,7 +115,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 7. Multi-Layered Defense-in-Depth Security
+## 5. Multi-Layered Defense-in-Depth Security
 
 | Layer | Key Controls & Technologies |
 | :--- | :--- |
@@ -175,7 +126,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 8. Terraform Landing Zone Automation & Best Practices
+## 6. Terraform Landing Zone Automation & Best Practices
 
 ```
 [ Terraform Git Repo ] 
@@ -222,7 +173,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 9. Azure Repos & DevSecOps Pipelines
+## 7. Azure Repos & DevSecOps Pipelines
 
 * **Branching Strategy:** GitFlow branching strategy for Application Repos (`frontend-repo`, `backend-repo`):
   * Feature branches (`feature/*`) cut from `develop`.
@@ -238,7 +189,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 10. End-to-End Cloud Migration Strategy
+## 8. End-to-End Cloud Migration Strategy
 
 ```
 +---------------+     +--------------+     +------------+     +-----------+     +-------------+
@@ -255,7 +206,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 11. FinOps (Cloud Financial Management)
+## 9. FinOps (Cloud Financial Management)
 
 * **Eliminate Waste:** Detect and remove unattached managed disks, obsolete snapshots, unassociated public IPs, and idle compute instances.
 * **Rightsizing:** Resize oversized VMs based on 30-day CPU/Memory utilization percentiles.
@@ -265,7 +216,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 12. Backup, Disaster Recovery & High Availability
+## 10. Backup, Disaster Recovery & High Availability
 
 * **Storage Redundancy:**
   * **LRS (Locally Redundant Storage):** 3 copies within a single datacenter.
@@ -279,7 +230,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 13. Enterprise Observability & Monitoring
+## 11. Enterprise Observability & Monitoring
 
 * **Azure Monitor & Log Analytics:** Centralized Log Analytics Workspace per enterprise landing zone.
 * **Azure Monitor Agent (AMA):** Ingestion filtered at source via Data Collection Rules (DCR) to optimize cost and performance.
@@ -287,7 +238,7 @@ Microsoft CAF guides end-to-end cloud adoption across six iterative phases:
 
 ---
 
-## 14. Vendor Management & Delivery Governance
+## 12. Vendor Management & Delivery Governance
 
 Senior engineers and architects regularly evaluate, negotiate with, and govern external partners and vendors.
 
